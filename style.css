@@ -1,0 +1,170 @@
+:root{
+
+    --font1: "Oswald, sans-serif";
+    --prim: #131c29;
+    --sec: #ff8901;
+    --tert: #f5f5f7;
+    --btnColor: #213349;
+    --date1: #be8442;
+    --date2: #be6142;
+    --date3: #bd425e;
+    --footerSec2: #0b1016;
+
+    --grad: radial-gradient(
+        top center,
+        #38587e,
+        #031620
+    );
+}
+
+
+    * {box-sizing: border-box;}
+
+
+/* names tag*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/* classes */
+
+.clear{
+    clear: both;
+}
+.container {
+    margin: 0 auto;
+    width: 96%;
+    border: 1px solid coral;
+}
+
+.content-box
+{
+    width: calc(100% / 3);
+    border: 1px solid coral;
+    float: left;
+    border-top: 1px solid #aaa;
+}
+
+.content-box:nth-child(3){
+    border-right: none;
+}
+
+
+.content-heading {
+    color: var(--prim);
+    font-family: var(--font1);
+    text-transform: uppercase;
+
+}
+ .content-img{
+    display: block;
+    width: 100%;
+ }
+
+ .content-text {
+    color: #777;
+    font-family:#ccc;
+ }
+.hero-img{
+    display: block;
+    width: 100%;
+}
+
+.hs1-item {
+    display: inline;
+    padding:0 12px;
+    text-transform: uppercase;
+    border-right: 1px solid #555;
+    font-family: sans-serif;
+}
+
+.hs1-link{
+    color: #555;
+    text-decoration: none;
+}
+
+.hs2-item {
+    display: inline;
+    margin: 0 8px;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    background-color: var(--btnColor);
+    border-radius: 5px;
+}
+.hs1-item:last-child {
+    padding: 0;
+    border: none;
+
+}
+
+.hs2-item:last-child{
+    margin-right: 0;
+}
+
+.hs2-item:hover{
+    color: var(--sec);
+}
+
+.more-btn{
+    color: var(--ter);
+    padding: 10px 12px;
+    color: var(--tert);
+    text-transform: uppercase;
+    background-color: var(--btnColor);
+    border: none;
+    border-radius: 5px;
+}
+.slider{
+    width: 25px;
+    height: 25px;
+    background: #777;
+    border-radius: 50%;
+    float: left;
+}
+.sliders{
+    margin: 16px auto;
+    width: 90px;
+    height: 30px;
+    border: 1px solid orange;
+}
+
+.slider:hover {
+    background: var(--sec);
+}
+.visually-hidden{
+    display: none;
+}
+
+
+/* ids */
+#headerSection1{
+    width:100%;
+    padding: 8px 0;
+    background-color: var(--prim);
+}
+
+#hs1List, #hs1Text {
+    width: 50%;
+    margin: 0;
+    border: 1px solid white;
+    float: left;
+}
+
+#hs1List{
+    padding-left: 0;
+    list-style-type: none;
+    text-align: right;
+}
+    #logo, #top {
+        width: 50%;
+        border: 1px solid dodgerblue;
+
+    }
+#hs2List{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
